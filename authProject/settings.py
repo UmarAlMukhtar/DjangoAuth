@@ -27,6 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['djangoauth-4wc3.onrender.com', '127.0.0.1', 'localhost']
 
+# CSRF trusted origins for production
+CSRF_TRUSTED_ORIGINS = [
+    'https://djangoauth-4wc3.onrender.com',
+    'http://127.0.0.1:8000',
+    'http://localhost:8000',
+]
+
 
 # Application definition
 
